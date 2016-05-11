@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="4" passed="3">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Live Test Cases Suite" duration-ms="458470" started-at="2016-05-11T06:00:09Z" finished-at="2016-05-11T06:07:48Z">
+  <suite name="Live Test Cases Suite" duration-ms="353811" started-at="2016-05-11T13:59:19Z" finished-at="2016-05-11T14:05:13Z">
     <groups>
     </groups>
-    <test name="Live Tests" duration-ms="458470" started-at="2016-05-11T06:00:09Z" finished-at="2016-05-11T06:07:48Z">
-      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase1@724af044]" name="setUp" is-config="true" duration-ms="3168" started-at="2016-05-11T11:30:09Z" finished-at="2016-05-11T11:30:12Z">
+    <test name="Live Tests" duration-ms="353811" started-at="2016-05-11T13:59:19Z" finished-at="2016-05-11T14:05:13Z">
+      <class name="com.SchoolOfDragons.QaLoginChecks.TestCase1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase1@724af044]" name="setUp" is-config="true" duration-ms="1760" started-at="2016-05-11T19:29:19Z" finished-at="2016-05-11T19:29:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase1@724af044]" name="ValidAuthorisedPlayerLogin" duration-ms="65564" started-at="2016-05-11T11:30:12Z" finished-at="2016-05-11T11:31:18Z">
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase1@724af044]" name="ValidAuthorisedPlayerLogin" duration-ms="58105" started-at="2016-05-11T19:29:21Z" finished-at="2016-05-11T19:30:19Z">
           <params>
             <param index="0">
               <value>
@@ -22,32 +22,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase1@724af044]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-11T11:31:18Z" finished-at="2016-05-11T11:31:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase1@724af044]" name="tearDown" is-config="true" duration-ms="220" started-at="2016-05-11T19:30:19Z" finished-at="2016-05-11T19:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase1@724af044]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-11T19:30:19Z" finished-at="2016-05-11T19:30:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase1.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase1@724af044] output={null}]]]>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase1.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase1@724af044] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase1@724af044]" name="tearDown" is-config="true" duration-ms="491" started-at="2016-05-11T11:31:18Z" finished-at="2016-05-11T11:31:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase1@724af044]" name="printReportPath" is-config="true" duration-ms="82101" started-at="2016-05-11T11:36:26Z" finished-at="2016-05-11T11:37:48Z">
+        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase1@724af044]" name="printReportPath" is-config="true" duration-ms="83808" started-at="2016-05-11T19:33:49Z" finished-at="2016-05-11T19:35:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printReportPath -->
-      </class> <!-- com.SchoolOfDragons.LiveLoginChecks.TestCase1 -->
-      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase4">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase4@29ee9faa]" name="setUp" is-config="true" duration-ms="303" started-at="2016-05-11T11:34:47Z" finished-at="2016-05-11T11:34:47Z">
+      </class> <!-- com.SchoolOfDragons.QaLoginChecks.TestCase1 -->
+      <class name="com.SchoolOfDragons.QaLoginChecks.TestCase2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase2@4678c730]" name="setUp" is-config="true" duration-ms="222" started-at="2016-05-11T19:30:20Z" finished-at="2016-05-11T19:30:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidNonAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase4@29ee9faa]" name="ValidNonAuthorisedPlayerLogin" duration-ms="98155" started-at="2016-05-11T11:34:47Z" finished-at="2016-05-11T11:36:26Z">
+        <test-method status="PASS" signature="ValidAuthorisedParentLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase2@4678c730]" name="ValidAuthorisedParentLogin" duration-ms="57881" started-at="2016-05-11T19:30:20Z" finished-at="2016-05-11T19:31:18Z">
           <params>
             <param index="0">
               <value>
@@ -55,129 +55,31 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidNonAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase4@29ee9faa]" name="tearDown" is-config="true" duration-ms="50" started-at="2016-05-11T11:36:26Z" finished-at="2016-05-11T11:36:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase4@29ee9faa]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-11T11:36:26Z" finished-at="2016-05-11T11:36:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ValidNonAuthorisedPlayerLogin status=SUCCESS method=TestCase4.ValidNonAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase4@29ee9faa] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.SchoolOfDragons.LiveLoginChecks.TestCase4 -->
-      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase2">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase2@4678c730]" name="setUp" is-config="true" duration-ms="274" started-at="2016-05-11T11:31:18Z" finished-at="2016-05-11T11:31:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="ValidAuthorisedParentLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase2@4678c730]" name="ValidAuthorisedParentLogin" duration-ms="123374" started-at="2016-05-11T11:31:19Z" finished-at="2016-05-11T11:33:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Live Test Cases]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='launchgame-content']/p[contains(text(),'subbuparent')]/strong[contains(text(),'You are currently logged in as')]"}
-  (Session info: chrome=50.0.2661.94)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 15.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'KAI-DT136', ip: '172.20.11.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\SUBRAM~1\AppData\Local\Temp\scoped_dir6948_24096}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=50.0.2661.94, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: deec12cdc325d1b339871cba6228018c
-*** Element info: {Using=xpath, value=//div[@class='launchgame-content']/p[contains(text(),'subbuparent')]/strong[contains(text(),'You are currently logged in as')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='launchgame-content']/p[contains(text(),'subbuparent')]/strong[contains(text(),'You are currently logged in as')]"}
-  (Session info: chrome=50.0.2661.94)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 15.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'KAI-DT136', ip: '172.20.11.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\SUBRAM~1\AppData\Local\Temp\scoped_dir6948_24096}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=50.0.2661.94, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: deec12cdc325d1b339871cba6228018c
-*** Element info: {Using=xpath, value=//div[@class='launchgame-content']/p[contains(text(),'subbuparent')]/strong[contains(text(),'You are currently logged in as')]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at Pages.AfterLoggedInPage.currentlyLoggedInText(AfterLoggedInPage.java:23)
-	at com.SchoolOfDragons.LiveLoginChecks.TestCase2.ValidAuthorisedParentLogin(TestCase2.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedParentLogin -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase2@4678c730]" name="afterTest" is-config="true" duration-ms="689" started-at="2016-05-11T11:33:22Z" finished-at="2016-05-11T11:33:23Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase2@4678c730]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-11T19:31:18Z" finished-at="2016-05-11T19:31:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidAuthorisedParentLogin status=FAILURE method=TestCase2.ValidAuthorisedParentLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase2@4678c730] output={null}]]]>
+                <![CDATA[[TestResult name=ValidAuthorisedParentLogin status=SUCCESS method=TestCase2.ValidAuthorisedParentLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase2@4678c730] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase2@4678c730]" name="tearDown" is-config="true" duration-ms="8310" started-at="2016-05-11T11:33:23Z" finished-at="2016-05-11T11:33:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase2@4678c730]" name="tearDown" is-config="true" duration-ms="51" started-at="2016-05-11T19:31:18Z" finished-at="2016-05-11T19:31:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.SchoolOfDragons.LiveLoginChecks.TestCase2 -->
-      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase3">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase3@6767c1fc]" name="setUp" is-config="true" duration-ms="131" started-at="2016-05-11T11:33:31Z" finished-at="2016-05-11T11:33:31Z">
+      </class> <!-- com.SchoolOfDragons.QaLoginChecks.TestCase2 -->
+      <class name="com.SchoolOfDragons.QaLoginChecks.TestCase3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase3@6767c1fc]" name="setUp" is-config="true" duration-ms="391" started-at="2016-05-11T19:31:18Z" finished-at="2016-05-11T19:31:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidNonAuthorisedParentLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase3@6767c1fc]" name="ValidNonAuthorisedParentLogin" duration-ms="75805" started-at="2016-05-11T11:33:31Z" finished-at="2016-05-11T11:34:47Z">
+        <test-method status="PASS" signature="ValidNonAuthorisedParentLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase3@6767c1fc]" name="ValidNonAuthorisedParentLogin" duration-ms="77018" started-at="2016-05-11T19:31:18Z" finished-at="2016-05-11T19:32:35Z">
           <params>
             <param index="0">
               <value>
@@ -188,22 +90,54 @@ Session ID: deec12cdc325d1b339871cba6228018c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidNonAuthorisedParentLogin -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase3@6767c1fc]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-11T11:34:47Z" finished-at="2016-05-11T11:34:47Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase3@6767c1fc]" name="afterTest" is-config="true" duration-ms="2" started-at="2016-05-11T19:32:35Z" finished-at="2016-05-11T19:32:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidNonAuthorisedParentLogin status=SUCCESS method=TestCase3.ValidNonAuthorisedParentLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase3@6767c1fc] output={null}]]]>
+                <![CDATA[[TestResult name=ValidNonAuthorisedParentLogin status=SUCCESS method=TestCase3.ValidNonAuthorisedParentLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase3@6767c1fc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveLoginChecks.TestCase3@6767c1fc]" name="tearDown" is-config="true" duration-ms="45" started-at="2016-05-11T11:34:47Z" finished-at="2016-05-11T11:34:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase3@6767c1fc]" name="tearDown" is-config="true" duration-ms="48" started-at="2016-05-11T19:32:35Z" finished-at="2016-05-11T19:32:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.SchoolOfDragons.LiveLoginChecks.TestCase3 -->
+      </class> <!-- com.SchoolOfDragons.QaLoginChecks.TestCase3 -->
+      <class name="com.SchoolOfDragons.QaLoginChecks.TestCase4">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase4@29ee9faa]" name="setUp" is-config="true" duration-ms="317" started-at="2016-05-11T19:32:35Z" finished-at="2016-05-11T19:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidNonAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase4@29ee9faa]" name="ValidNonAuthorisedPlayerLogin" duration-ms="73940" started-at="2016-05-11T19:32:35Z" finished-at="2016-05-11T19:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Test Cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidNonAuthorisedPlayerLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase4@29ee9faa]" name="tearDown" is-config="true" duration-ms="44" started-at="2016-05-11T19:33:49Z" finished-at="2016-05-11T19:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase4@29ee9faa]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-11T19:33:49Z" finished-at="2016-05-11T19:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidNonAuthorisedPlayerLogin status=SUCCESS method=TestCase4.ValidNonAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.QaLoginChecks.TestCase4@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.SchoolOfDragons.QaLoginChecks.TestCase4 -->
     </test> <!-- Live Tests -->
   </suite> <!-- Live Test Cases Suite -->
 </testng-results>

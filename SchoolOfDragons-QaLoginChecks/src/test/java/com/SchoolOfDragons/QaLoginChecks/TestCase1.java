@@ -39,7 +39,7 @@ public class TestCase1
 	@Test()
 	public void ValidAuthorisedPlayerLogin(String catg) throws Throwable
 	{
-		logger = report.startTest("Test Case 1: Live - Age 13 Player (Authorized User) Login to School of Dragons Live ","This will verify if Authorized user with age 13 can login with valid credentials");		
+		logger = report.startTest("Test Case 1: QA - Age 13 Player (Authorized User) Login to School of Dragons Live ","This will verify if Authorized user with age 13 can login with valid credentials");		
 		logger.log(LogStatus.INFO, "Browser is up and running");
 		String browserOpenedScreenshot=logger.addScreenCapture(CaptureScreenshot.takeScreenshot(driver, "Application"));
 		logger.log(LogStatus.INFO, browserOpenedScreenshot);		

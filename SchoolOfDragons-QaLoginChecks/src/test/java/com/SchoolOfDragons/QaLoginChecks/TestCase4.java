@@ -36,7 +36,7 @@ public class TestCase4
 	@Test
 	public void ValidNonAuthorisedPlayerLogin(String catg) throws Throwable
 	{
-		logger = report.startTest("Test Case 4: Live - Age 13 Player (Non Authorized User) Login to School of Dragons Live ","This will verify if a non Autorized user with age 13 can login with valid credentials");
+		logger = report.startTest("Test Case 4: QA - Age 13 Player (Non Authorized User) Login to School of Dragons Live ","This will verify if a non Autorized user with age 13 can login with valid credentials");
 		
 		driver = BrowserFactory.getBrowser("chrome");
 		logger.log(LogStatus.INFO, "Browser is up and running");
