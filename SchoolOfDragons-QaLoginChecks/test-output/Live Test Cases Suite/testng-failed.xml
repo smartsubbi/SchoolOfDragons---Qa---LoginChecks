@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Live Test Cases Suite]">
+  <parameter name="Category" value="Live Test Cases"/>
+  <test name="Live Tests">
+    <classes>
+      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase1"/>
+      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase2"/>
+      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase3"/>
+      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase4"/>
+    </classes>
+  </test> <!-- Live Tests -->
+  <test name="Live Tests(failed)">
+    <classes>
+      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="printReportPath"/>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.SchoolOfDragons.LiveLoginChecks.TestCase1 -->
+      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase2">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="ValidAuthorisedParentLogin" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.SchoolOfDragons.LiveLoginChecks.TestCase2 -->
+      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase4">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SchoolOfDragons.LiveLoginChecks.TestCase4 -->
+      <class name="com.SchoolOfDragons.LiveLoginChecks.TestCase3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.SchoolOfDragons.LiveLoginChecks.TestCase3 -->
+    </classes>
+  </test> <!-- Live Tests(failed) -->
+</suite> <!-- Failed suite [Live Test Cases Suite] -->
